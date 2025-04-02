@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ModelMap 실습</title>
+</head>
+<body>
+    <h1 th:text="${message1}"/>
+    <h1 th:text="${message1}"/>
+    <ul>
+        <li th:each="fruit:${fruitList}" th:text="${fruit}"></li>
+    </ul>
+    <h3 th:text="${data3}"></h3>
+
+</body>
+</html>
